@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MapsActivity" />
+    <Button
+        android:id="@+id/button_idd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="Logout"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#FF0000"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:drawableTop="@drawable/bank"
+            android:text="bank"
+            style="?android:attr/buttonBarButtonStyle" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#FF0000"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/mall"
+            android:text="mall"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="#FF0000"
+            android:drawableTop="@drawable/shop"
+            android:text="shop"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="#FF0000"
+            android:drawableTop="@drawable/atm"
+            android:text="atm"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" /> />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#FF0000"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/hospital"
+            android:text="health"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

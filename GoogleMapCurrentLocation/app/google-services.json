@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "751744970155",
+    "project_id": "barclays123-bc379",
+    "storage_bucket": "barclays123-bc379.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751744970155:android:02d4e0a4b7872c7069f6ee",
+        "android_client_info": {
+          "package_name": "com.hackathon.googlemapcurrentlocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751744970155-t717lpdt2lff2ojbgn1oqe9vtcr015lg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBctKf0noi6RirfMtj0igcnpQLBn2s-kWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751744970155-t717lpdt2lff2ojbgn1oqe9vtcr015lg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

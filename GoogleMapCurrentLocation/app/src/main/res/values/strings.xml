@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GoogleMapCurrentLocation</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="fx">Fx.</string>
+    <string name="services">Services</string>
+    <string name="text_on_click" />
+</resources>
